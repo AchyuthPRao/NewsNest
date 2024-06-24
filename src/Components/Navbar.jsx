@@ -5,7 +5,7 @@ import newsLogo from "../assets/news-logo.png"
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
-  { name: 'Dashboard', href: '/layout', current: false },
+  { name: 'Dashboard', href: '/land', current: false },
   { name: 'About', href: '/about', current: false },
   { name: 'Contact', href: '#', current: false },
 ]

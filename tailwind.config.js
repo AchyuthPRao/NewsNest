@@ -6,7 +6,11 @@ export default {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'custom-image': "url('./src/images/news.jpg')",
+      },
+    },
   },
   plugins: [
   ],
